@@ -1,0 +1,545 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Heading css */
+.div1{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    align-items: center;
+}
+.div1 > p{
+    font-size: 20px;
+}
+.div1 span{
+    font-weight: bolder;
+}
+.subdiv1{
+    font-weight: bolder;
+    cursor: pointer;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Nav-bar css */
+.div2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.subdiv3{
+    display: flex;
+    gap: 60px;
+    padding-right:40px ;
+}
+.subdiv3 >a{
+    text-decoration: none;
+    color : black;
+}
+
+/* Applying mediaquery css*/
+@media screen and (max-width:800px) {
+    .subdiv3{
+display: none;
+    }
+}
+
+@media screen  and (min-width : 800px){
+    .icon1{
+        display: none;
+            }
+}
+
+/* side-nav css */
+
+.div3{
+    background-color: black;
+    color: white;
+    display: none;
+    width: 60vw;
+    height: 100vh;
+}
+.subdiv5{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding:20px ;
+}
+.subdiv5 >a{
+    text-decoration: none;
+    color : white;
+}
+.subdiv4{
+    text-align: end;
+    padding: 20px 20px 0 0;
+    cursor: pointer;
+}
+/* slider css */
+
+.slider-container{
+    display: flex;
+    position: relative; 
+    width: 100%; 
+    overflow: hidden;  
+}
+
+.slider-image-container{
+    display: flex;
+    transition: 2s;
+}
+
+.slider-image{
+    width: 100vw;
+}
+
+.slider-left{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+
+.shop{
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: #fff;
+}
+
+.slider-content{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size:45px;
+    top: 10%;
+    left: 10%;
+}
+
+.slider-right{
+    position: absolute;
+    top: 40%;
+    left: 90%;
+}
+
+/* brand-sectors */
+
+.brand-sectors1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px 30px 10px;
+}
+.brandhead{
+    padding:10px;
+}
+.subbrand1 img{
+   width: 35px;
+
+}
+.subbrand2 img{
+    width: 35px;
+ 
+ }
+ .subbrand3 img{
+    width: 35px;
+ 
+ }
+ .subbrand4 img{
+    width: 35px;
+ 
+ }
+ .subbrand5 img{
+    width: 35px;
+ 
+ }
+ .subbrand6 img{
+    width: 35px;
+ 
+ }
+ .subbrand7 img{
+    width: 35px;
+ 
+ }
+ 
+
+
+/* feedback-review css */
+
+.feed{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.feed-para {
+   padding: 20px;
+   font-size:20px;
+}
+ 
+/* deatils css */
+
+
+.totdet{
+    display: flex;
+    gap: 5px;
+    padding: 25px 10px 25px 10px;
+     
+}
+.subdetail1 , .subdetail2, .subdetail3, .subdetail4{
+    width: 400px;
+    height: 130px;
+    background-color: #F2F4F7;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.subdetail1 i{
+    font-size: 35px;
+}
+
+.subdetail2 i{
+    font-size: 35px;
+}
+.subdetail3 i{
+    font-size: 35px;
+}
+.subdetail4 i{
+    font-size: 35px;
+}
+
+/* New-arrival css */
+
+.newarrival-container{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    
+}
+.shopheader{
+    padding: 10px;
+}
+.newarrival-container > div{
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 20%;
+}
+.newarrival-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.newarrival-container > div >button{
+    background-color: #fff;
+    color: black;
+    padding:3px;
+    border-radius: 10px;
+    font-size: larger;
+    width: 125px;
+    position: absolute;
+    bottom: 45%;
+    left: 30%;
+    border-style: none;
+}
+
+/* most-wanted css */
+.most-wanted-container{
+    padding: 10px;
+}
+.most-wanted-h1{
+ padding: 10px;
+}
+.most-wanted-image1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.most-wanted-image2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.most-wanted-image3 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.most-wanted-image4 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.most-wanted-image5 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.most-wanted-image6 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.most-wanted-image7 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.most-wanted-image8 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.most-box{
+    display: flex;
+    overflow: scroll;
+    gap: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.most-wanted-image1{
+    position: relative;
+}
+.most-wanted-image2{
+    position: relative;
+}
+.most-wanted-image3{
+    position: relative;
+}
+.most-wanted-image4{
+    position: relative;
+}
+.most-wanted-image5{
+    position: relative;
+}
+.most-wanted-image6{
+    position: relative;
+}
+.most-wanted-image7{
+    position: relative;
+}
+.most-wanted-image8{
+    position: relative;
+}
+.most-btn1{
+    background-color: red;
+    color: white;
+    width: 80px;
+    padding: 9px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 25px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+.black_heart img{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 220px;
+}
+
+/* limited-offer css */
+
+.limited-offer-1{
+    background-color:black;
+    display: flex;
+    gap: 50px;
+    height: 20rem;
+}
+.limited-offer-img img{
+    width: 400px;
+    height: 200px;
+    padding: 40px;
+    margin-left: 30px;
+}
+.limited-offer-text{
+    color: white;
+    padding-top: 50px;
+    font-size: x-large;
+}
+.btn-lim{
+    padding:10px;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    font-size:large ;
+
+}
+/* news css */
+
+.div99{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px;
+    gap:10px;
+}
+.search input{
+    width: 77rem;
+    border-style: solid ;
+    padding-top: 10px;
+}
+.newsbtn{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+    font-size:x-large;
+}
+.news-h1 {
+    font-size:47px ;
+}
+.news-p{
+    font-size:30px ;
+}
+
+/* footer css */ 
+
+.div100{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100vw;
+    height: auto;
+    padding-left: 50px;
+}
+.subdiv102{
+    display: flex;
+    gap: 60px;
+}
+.subdiv101{
+    font-size:30px;
+}
+
+
+/* collection-list css */
+
+.collection-section {
+    margin-top: 20px;
+}
+
+.collection-search {
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.collection-search input {
+    border: none;
+    background: transparent;
+    width: 100%;
+}
+
+.collection-search input:focus {
+    outline: none;
+}
+
+.collection-items {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.collection-box {
+    text-align: center;
+    flex-basis: 20%;
+}
+
+.collection-box img {
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+}
+
+
+/* rightside */
+
+
+.totalcheck{
+    display: flex;
+}
+
+.custinput{
+    border: solid;
+    width: 80%;
+
+}
+
+.custinput input{
+    border-style: none;
+    width: 90%;
+
+}
+.custinput i{
+    margin-left: 100px;
+}
+.custinput input:focus{
+ outline : none;
+}
+
+/* contact-details css */
+.contact-container{
+    width: 70rem;
+    height: 40rem;
+    background-color:#14162A;
+    color: white;
+    border-radius: 20px;
+}
+.contact-subcontainer{
+    padding:30px;
+}
+.contact-subcontainer input{
+    width:38rem;
+    border-radius: 5px;
+    height: 2rem;
+}
+.contact-subcontainer1{
+   text-align: center;
+   font-size: 22px;
+}
+.input1{
+display: flex;
+flex-direction: column;
+margin-left:15em;
+gap: 15px;
+
+}
+.maincontact-container{
+   
+    display: flex;
+    justify-content: center;
+}
+.maininput{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+.input1 textarea{
+    width: 38rem;
+}
+.c-btn{
+    background-color:#68a9ff;
+    width: 8rem;
+    padding:15px;
+    border-radius: 10px;
+}
