@@ -126,8 +126,8 @@ var collectionItems = document.querySelectorAll('.collection-box'); // Select on
 search.addEventListener('keyup', function(event) { // added event parameter to the function
     var enteredValue = event.target.value.toUpperCase();
 
-    for (var count = 0; count < collectionItems.length; count++) { // corrected variable name to collectionItems
-        var itemName = collectionItems[count].querySelector('p').textContent.toUpperCase(); // corrected variable name to itemName
+    for (var count = 0; count < collectionItems.length; count++) { 
+        var itemName = collectionItems[count].querySelector('p').textContent.toUpperCase(); 
         if (itemName.indexOf(enteredValue) < 0) {
             collectionItems[count].style.display = "none";
         } else {
